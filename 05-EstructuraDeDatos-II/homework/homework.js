@@ -161,8 +161,6 @@ HashTable.prototype.set = function(clave,valor) {
     
   let claveHash = this.hash(clave)
   
-  
-
         if(this.array[claveHash] == null ||this.array[claveHash][0] === clave) {
           
         this.array[claveHash] = [clave,valor]
